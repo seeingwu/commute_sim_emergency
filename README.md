@@ -59,11 +59,8 @@ The model assigns routes based on real-world road networks of Yuexiu District, G
 graph TD
     A[School Data] --> B(Generate Agents)
     B --> C1[Commute Assignment]
-    C1 --> C{Mode Assignment&Departure Time}
-    C --> D[Walking]
-    C --> E[Public Transit]
-    C --> F[Private Vehicle]
-    D & E & F --> G[Route Generation]
+    C1 --> C{Mode & Departure Time}
+    C --> G[Route Generation]
 
     H[Emergency Scenario] --> I[Policy Interventions]
     H --> C
