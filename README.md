@@ -126,6 +126,4 @@ graph TD
         simulation_engine.py
         visualization_tools.py
 ```
-```
 
-This version of the `README.md` provides additional details about the route assignment, network assignment, and the impact of natural hazards on commuting behavior. It also outlines how policy interventions are integrated into the workflow to modify agent behavior in response to disruptions.
